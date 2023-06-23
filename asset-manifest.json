@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/g-savitha/Wordle-clone/static/css/main.de512aaa.css",
+    "main.js": "/g-savitha/Wordle-clone/static/js/main.6c04c063.js",
+    "index.html": "/g-savitha/Wordle-clone/index.html",
+    "main.de512aaa.css.map": "/g-savitha/Wordle-clone/static/css/main.de512aaa.css.map",
+    "main.6c04c063.js.map": "/g-savitha/Wordle-clone/static/js/main.6c04c063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de512aaa.css",
+    "static/js/main.6c04c063.js"
+  ]
+}
