@@ -2,8 +2,8 @@
   "name": "word-game",
   "version": "0.1.0",
   "private": true,
-  "author": "Josh Comeau <me@joshwcomeau.com>",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "new-component": "4.0.0",
     "prettier": "^2.6.2",
     "react": "18.2.0",
@@ -15,7 +15,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "new-component": "new-component",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +36,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/g-savitha/Wordle-clone"
 }
